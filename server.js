@@ -16,4 +16,4 @@ server.listen(3000, async ()=>{
     } catch (error) {
         console.log(error);
     }
-})
+});
