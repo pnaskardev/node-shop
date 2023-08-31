@@ -10,7 +10,6 @@ const {
     updateProductController,
     deleteProductController
 }= require('../controllers/productControllers');
-const checkAuth = require('../middlewares/check-auth');
 
 // Get all the products in the database
 // Non logged in user should be able to access all the products

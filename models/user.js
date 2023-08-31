@@ -7,7 +7,7 @@ const userSchema=mongoose.Schema({
         required:true,
         unique:true,
         // Regex for email validation
-        match:"^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$",
+        // match:"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$",
     },
     password:{
         type:String,
